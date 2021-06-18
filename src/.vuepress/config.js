@@ -1,7 +1,7 @@
 module.exports = {
   title: '博客文档',
   description: '博客文档博客文档博客文档博客文档',
-  base: '/blog',
+  base: '/blog/',
   markdown: {
     lineNumbers: true
   },
