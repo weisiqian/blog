@@ -10,11 +10,11 @@ module.exports = {
     lastUpdated: 'Last Updated',
     nav:[
       {
-        text: '博客',
-        link: '/page/guide/introduction'
+        text: 'Git',
+        link: '/page/git/自定义Git提交规范'
       },
       {
-        text: 'Git',
+        text: 'Git源码',
         items: [
           { text: 'Git地址', link: 'https://github.com/weisiqian/blog' },
         ]
@@ -22,10 +22,10 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: '文章列表',
+        title: 'Git',
         collapsable: false,
         children: [
-          ['/page/guide/introduction', '介绍'],
+          ['/page/git/自定义Git提交规范', '自定义Git提交规范'],
         ]
       }
     ]
